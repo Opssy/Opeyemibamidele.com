@@ -1,4 +1,4 @@
-/* BASIC SETTUP
+/* BASIC SETTUP*/
 *{
 	margin: 0;
 	padding: 0;
@@ -10,66 +10,19 @@ html {
 body {
   box-sizing: border-box; }
 html, body{
-	background-color: #fff;
-	color: #555;
+	background-color: rgba(239, 245, 242, 0.911);
 	font-family: 'Lato', 'Arial', san-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
-/*HEADER*/
-/* .row{
-	background-color: #555;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-	background-attachment: fixed;
-} */
-/* .title{
-color: blanchedalmond;
-font-family: Lato,Arial, sans-serif;
-font-weight: 400;
-font-size: 70px;
-margin-top:150px;
-}
-
-.description{
-	color: blanchedalmond;
-	font-family: Lato,Arial, sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	padding-top:150px;
-	margin-left: 20px;
-}
-.profile{
-	/* transform: rotate(90deg);
-	width: 800px;
-	float: right; */
-	/* border: 10px solid black; */
-	/* margin-bottom: 800px; */
-
-   
-/* } */
-/* .side__1{
-	border: 10px solid black;
-} */ 
-
- 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
 /* Create two equal columns that floats next to each other */
-.column {
+.col-1-of-2{
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+	height: 819px;
 }
 
 /* Clear floats after the columns */
@@ -77,4 +30,92 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+.frame {
+    position: fixed;
+    z-index: 100;
+    background: white;
+}
+.frame-left {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 18px;
+}
+.frame-right {
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 18px;
+}
+.frame-top {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 20px;
+}
+.frame-bottom {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+}
+.title{
+	text-align: center;
+	margin-top: 297px;
+	font-weight: 700;
+	color: white;
+}
+.introduction{
+	margin-top: 100px;
+	margin-left: 20px;
+	text-align: center;
+	color: white;
+
+}
+.profile{
+    margin-top: 44px;
+    transform: rotate(90deg);
+    height: auto;
+    width: 874px;
+	margin-left: -119px;
+	opacity: .1px;
+}
+.description__title{
+	font-size: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    color: #e6e6e6;
+    font-family: "freight-text-pro","Freight Text",Georgia,serif;
+}
+
+.stack{
+	background-color: #7676a3;
+	border: 1px solid white;
+}
+.sub__stack{
+margin-left: 10px;
+list-style: none;
+margin-top: 84px;
+color: white;
+}
+.sub__stack li{
+	margin: 30px;
+}
+h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 21px;
+	margin-bottom: 17px;
+	color: white;
+}
+article{
+	display: block;
+}
+ .excerpt__title {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
 }
