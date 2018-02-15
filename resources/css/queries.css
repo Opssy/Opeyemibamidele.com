@@ -4,62 +4,63 @@
 /*Big tablet to 1200px */
 
 @media only screen and (max-width: 1200px) {
-	.hero-text-box{
-	width: 150%;
-	padding: 0 2%;
-	margin-left: 30%;
-}
-.row{ padding: 0 2% }
-
 
 }
-
-
-
-
-
-
-
 /*from small tab to big tablet from 767 to 1023px*/
 
 @media only screen and (max-width: 1023px) {
+    .description{
+     width: 50%;
+    }
+    .description__title{
+        font-size: 20px;
+        margin-top: 78px;
+        margin-left: 35px;
+        margin-bottom: 24px;
+        color: #e6e6e6;
+        font-family: "freight-text-pro","Freight Text",Georgia,serif;
+    }
+    div.img {
+        /* border: 1px solid #ccc; */
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .profile__pic{
+        display: none;
+    }
+    .col-1-of-2 {
+        /* float: left; */
+        width: 197%;
+        padding: 10px;
+        height: 819px;
+    }
+    .title {
+        text-align: center;
+        margin-top: 297px;
+        font-weight: 700;
+        color: white;
+        margin-right: 985px;
+    }
+    .introduction {
+        margin-top: 100px;
+        margin-left: 20px;
+        text-align: center;
+        color: white;
+        margin-right: 985px;
+    }
+    .responsive {
+        margin-top: 30px;
+        padding: 0 6px;
+        float: left;
+        width: 85.99999%;
+        margin-left: 63px;
+        /* margin-right: 40px; */
+    }
+    .span-1-of-6 {
+        width: 47.26%;
+    }
 
-   body:{ font-size: 18px; }
-   section:{padding: 60px, 0}
-
-.long-copy{
-	width: 80%;
-	margin-left: 10%; 
 }
-.steps-box {
-	margin-top: 10px;
-}
-.steps-box:last-child{
-	margin-top: 10px;
-}
-.works-step {
-	margin-bottom: 40px;
-}
-.works-step:last-of-type{ margin-bottom:  60px; }
-.app-screen{ width: 50%; }
-.icon-small{
-	width: 5px;
-margin-right: 2px;}
-.city-feature{font-size: 90%;}
-.plan-box{
-	width: 100%;
-    margin-left: 0%;
-}
-.plan-price{
-     font-size: 250%;
-}
-.contact-form {
-	width: 80%;
-}
-}
-
-
-
 
 
 
@@ -67,111 +68,142 @@ margin-right: 2px;}
 /*small phones to small tablet: from 480 to 767px*/
 
 @media only screen and (max-width: 767px) {
-
-      .main-nav{font-size: 70%;
-             }
-    .main-nav li {
-    	margin-left: 50px;
-    	/*font-size: 100%;*/
+      .header{
+        min-height: 500px;
+      } 
+      .description{
+        width: 50%;
+       }
+       .profile__pic{
+           display: none;
+       }
+       .col-1-of-2 {
+        /* float: left; */
+        width: 197%;
+        padding: 10px;
+        height: 819px;
     }
-
-    body{ font-size: 16px; }
-    section{ padding: 30px 0;  }
-
-    .row, .hero-text-box {
-    	padding: 0 4%;
+    .title {
+        text-align: center;
+        margin-top: 297px;
+        font-weight: 700;
+        color: white;
+        margin-right: 961px;
+        padding-left: 247px;
     }
-    .hero-text-box {
-    	font-size: 95%;
-                   }
-    .col{ width: 100%; 
-          margin: 0% 0 4% 0%;}
-
-    .main-nav {
-    	display: none;
+    .introduction {
+        margin-top: 100px;
+        margin-left: 20px;
+        text-align: center;
+        color: white;
+        margin-right: 719px;
     }
-    .mobile-nav-icon {
-    	display: inline-block; 
-    }
-    .main-nav {
-    	float: left;
-    	margin-top: 35px;
-    	margin-left: 25px;
-    }
-    .main-nav li{
-    	display: block;
-    }
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border:0;  
-        padding: 10px 0;
-        font-size: 100%;
-    }
-
-.sticky .main-nav{
- margin-top: 10px;
-}
-.sticky .main-nav li a:link,
-.main-nav li a:visited{
-	padding: 10px 0;}
-   .sticky .mobile-nav-icon {
-		margin-top: 10px;
-	}
-	.sticky .mobile-nav-icon i {
-		color: #555;
-	}
-    h1{font-size: 180%;}
-    h2{font-size: 150%;}
-    .long-copy{
-    	width: 100%;
-    	margin-left:0%; 
-    } 
-.works-step {
-	margin-bottom: 20px;
-}
-.works-step:last-of-type{ margin-bottom:  20px; }
-
-.works-step div{
-	height: 40px;
-	width: 40px;
-	padding: 40px;
-	margin-right:15px;
-	font-size: 120%;
-}
-.steps-box:first-child{
-	text-align: center;
-}
-.app-screen{ width: 40%; }
-
-    
-}
-
-
+        .responsive {
+            margin-top: 30px;
+            padding: 0 6px;
+            float: left;
+            width: 85.99999%;
+            margin-left: 63px;
+            /* margin-right: 40px; */
+        }
+        .span-1-of-6 {
+            width: 47.26%;
+        }  
+        .description__title {
+            font-size: 20px;
+            margin-top: 78px;
+            margin-left: 24px;
+            margin-bottom: 24px;
+            color: #e6e6e6;
+            font-family: "freight-text-pro","Freight Text",Georgia,serif;
+        } 
+        article {
+            padding: 2%;
+            line-height: 145%;
+            position: relative;
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+ }
 /*small phones from 0 to 480px*/
 
 
 @media only screen and (max-width: 480px) {
-
-     .hero-text-box {
-    	font-size: 64%;
-                   }
-    .main-nav{
-	font-size: 70%;
-             }
-    .main-nav li {
-    	margin-left: 10px;
+    .profile__pic{
+        display: none;
     }
-    section{ padding: 25px 0; }
-    .contact-form{width: 100%; }
+    .col-1-of-2 {
+        /* float: left; */
+        width: 197%;
+        padding: 10px;
+        height: 819px;
+    }
+    .title {
+        text-align: center;
+        margin-top: 297px;
+        font-weight: 700;
+        color: white;
+        margin-right: 961px;
+        padding-left: 95px;
+    }
+    .introduction {
+        display: table-cell;
+        font-size: 12px;
+        padding-left: 39px;
+        padding-top: 45px;
+        font-weight: 400;
+    }
+ 
+    .description__title {
+        font-size: 14px;
+        /* margin-top: 78px;
+        margin-left: 24px;
+        margin-bottom: 24px;
+        color: #e6e6e6;
+        font-family: "freight-text-pro","Freight Text",Georgia,serif; */
+    }
+    h4 {
+        font-size: 15px;
+        margin-left: 14px;
+    }
+    .span-1-of-6 {
+        width: 51.26%;
+        margin-top: 10px;
+        /* text-align: center; */
+        /* margin-left: 76px; */
+        font-size: 23px;
+    }
+    .excerpt__title {
+       color: white;
+       font-size: 17px;
+       margin-bottom: 10px;
+       font-family: "Karla",sans-serif;
+       font-size: 11px;
+       margin-left: 16px;
+       font-weight: 00;
+    }
+    .excerpt__content {
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        margin-left: 16px;
+        line-height: normal;
+    }
+    .description__title {
+        font-size: 16px;
+        margin-top: 78px;
+        margin-left: 24px;
+        margin-bottom: 24px;
+        color: #e6e6e6;
+        font-family: "freight-text-pro","Freight Text",Georgia,serif;
+    }
+    .responsive {
+        margin-top: 30px;
+        padding: 0 6px;
+        float: left;
+        width: 82.99999%;
+        margin-left: 27px;
+        /* margin-right: 40px; */
+    }
+}
 
-    .btn-app img{
-    	width: 50%;
-	margin-left: 10px;
-}
-.footer-nav li,
-.social-links li {
-  /*display: inline-block;*/
-  margin-right: 5px;
-}
-}
