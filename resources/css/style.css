@@ -129,7 +129,8 @@ i{
 
 }
 .span-1-of-6 {
-    width: 31.26%;
+	width: 31.26%;
+
 }
 .col:first-child {
     margin-left: 18px;
@@ -165,6 +166,9 @@ div.img {
 div.img img {
     width: 100%;
     height: auto;
+}
+img{
+	border-radius: 6px;
 }
 div.desc {
     /* padding: 15px; */

@@ -4,11 +4,18 @@
 /*Big tablet to 1200px */
 
 @media only screen and (max-width: 1200px) {
+.title {
+    margin-right: 944px;
+}
 
 }
 /*from small tab to big tablet from 767 to 1023px*/
 
 @media only screen and (max-width: 1023px) {
+    .title {
+        margin-right: 944px;
+    }
+    
     .description{
      width: 50%;
     }
@@ -39,7 +46,6 @@
         margin-top: 297px;
         font-weight: 700;
         color: white;
-        margin-right: 985px;
     }
     .introduction {
         margin-top: 100px;
@@ -57,7 +63,10 @@
         /* margin-right: 40px; */
     }
     .span-1-of-6 {
-        width: 47.26%;
+        width: 49.26%;
+    }
+    .links {
+        padding-left: 354px;
     }
 
 }
@@ -107,8 +116,8 @@
             /* margin-right: 40px; */
         }
         .span-1-of-6 {
-            width: 47.26%;
-        }  
+            width: 49.26%;
+        }
         .description__title {
             font-size: 20px;
             margin-top: 78px;
@@ -123,6 +132,9 @@
             position: relative;
             margin-top: 3px;
             margin-left: 10px;
+        }
+        .links {
+            padding-left: 270px;
         }
  }
 /*small phones from 0 to 480px*/
